@@ -5,8 +5,8 @@ module.exports = {
     title: 'Nathan Patterson',
     description:
       'Nathan Patterson is a software engineer specializing in and focused on FinTech, Machine Learning, and the Blockchain.',
-    siteUrl: 'https://nathanpatterson.com', // No trailing slash allowed!
-    image: '/static/og.png', // Path to your image you placed in the 'static' folder
+    siteUrl: 'https://n8patterson.com', // No trailing slash allowed!
+    image: 'src/images/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'NathanPatterson',
+        short_name: 'NathanPatterson',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
