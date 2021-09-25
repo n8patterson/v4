@@ -141,9 +141,7 @@ const Nav = ({ isHome }) => {
       return;
     }
 
-    const timeout = setTimeout(() => {
-      setIsMounted(true);
-    }, 100);
+    const timeout = setTimeout(() => setIsMounted(true), loaderDelay);
 
     window.addEventListener('scroll', handleScroll);
 
