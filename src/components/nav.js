@@ -7,7 +7,6 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
-import { IconLogo } from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -158,22 +157,12 @@ const Nav = ({ isHome }) => {
   const fadeClass = isHome ? 'fade' : '';
   const fadeDownClass = isHome ? 'fadedown' : '';
 
-  const Logo = (
-    <div className="logo" tabIndex="-1">
-      {isHome ? (
-        <a href="/" aria-label="home">
-          <IconLogo />
-        </a>
-      ) : (
-        <Link to="/" aria-label="home">
-          <IconLogo />
-        </Link>
-      )}
-    </div>
-  );
-
   const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a
+      className="resume-button"
+      href="/nathan_patterson_resume_08242021.pdf"
+      target="_blank"
+      rel="noopener noreferrer">
       Resume
     </a>
   );
@@ -183,8 +172,6 @@ const Nav = ({ isHome }) => {
       <StyledNav>
         {prefersReducedMotion ? (
           <>
-            {Logo}
-
             <StyledLinks>
               <ol>
                 {navLinks &&
@@ -201,14 +188,6 @@ const Nav = ({ isHome }) => {
           </>
         ) : (
           <>
-            <TransitionGroup component={null}>
-              {isMounted && (
-                <CSSTransition classNames={fadeClass} timeout={timeout}>
-                  <>{Logo}</>
-                </CSSTransition>
-              )}
-            </TransitionGroup>
-
             <StyledLinks>
               <ol>
                 <TransitionGroup component={null}>
