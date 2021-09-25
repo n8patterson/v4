@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { navDelay } from '@utils';
+import { loaderDelay } from '@utils';
 import { Layout } from '@components';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -36,7 +36,7 @@ const NotFoundPage = ({ location }) => {
       return;
     }
 
-    const timeout = setTimeout(() => setIsMounted(true), navDelay);
+    const timeout = setTimeout(() => setIsMounted(true), loaderDelay);
     return () => clearTimeout(timeout);
   }, []);
 
