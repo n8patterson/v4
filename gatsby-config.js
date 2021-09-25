@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Nathan Patterson is a software engineer specializing in and focused on FinTech, Machine Learning, and the Blockchain.',
     siteUrl: 'https://n8patterson.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: 'src/images/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
