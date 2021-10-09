@@ -145,9 +145,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Nathan and I am a Software Engineer who enjoys working on FinTech, machine
-              learning, blockchain projects. My interest in FinTech started back college as a double
-              major in CS and Finance.
+              My name is Nathan and I am a Software Engineer who enjoys working on FinTech, Full
+              Stack, Machine Learning, and Blockchain projects. My interest in FinTech started back
+              college as a double major in CS and Finance.
             </p>
 
             <p>
