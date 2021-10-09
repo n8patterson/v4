@@ -129,6 +129,8 @@ const About = () => {
     'Node',
     'Express',
     'React',
+    'Redux',
+    'AWS',
     'Tensorflow',
     'Javascript',
     'SQL',
