@@ -145,16 +145,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Nathan and I am a Software Engineer who enjoys working on FinTech, Full
+              My name is Nathan, and I am a Software Engineer who enjoys working on FinTech, Full
               Stack, Machine Learning, and Blockchain projects. My interest in FinTech started back
-              college as a double major in CS and Finance.
+              in college as a double major in CS and Finance.
             </p>
 
             <p>
               Over the years, I’ve had the privilege of working at a few companies in the Seattle
-              area including a startup that was part remote and had employees all over the world. My
-              main focus these days includes working with Tensorflow and Solidity for machine
-              learrning and blockchain projects.
+              area, including a startup that was part remote and had employees worldwide. My main
+              focus these days includes working with Tensorflow and Solidity for machine learning
+              and blockchain projects.
             </p>
 
             <p>
